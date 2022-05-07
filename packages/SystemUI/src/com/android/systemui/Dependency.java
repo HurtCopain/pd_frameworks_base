@@ -601,6 +601,8 @@ public class Dependency {
 
         mProviders.put(AuthController.class, mAuthController::get);
 
+        mProviders.put(AuthController.class, mAuthController::get);
+
         Dependency.setInstance(this);
     }
 
